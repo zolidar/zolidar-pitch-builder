@@ -2,6 +2,11 @@
 
 Transform your business narrative into compelling investor presentations using proven methodologies from Khosla Ventures, Sequoia Capital, and successful platform companies.
 
+## Zolidar pitch deck as an example
+
+🚀 **[View Live Presentation](https://zolidar.github.io/zolidar-pitch-builder/)** - Interactive web version  
+📄 **[View PDF](https://docsend.com/view/ks2szb3qji48h79v)** - Pitch deck with clickable links
+
 ## What This Is
 
 An AI-powered pitch deck framework that transforms your business narrative into professional investor presentations using battle-tested methodologies from Khosla Ventures, Sequoia Capital, and successful platform companies.

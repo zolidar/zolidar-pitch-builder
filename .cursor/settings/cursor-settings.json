@@ -1,0 +1,30 @@
+{
+  "cursor.general.enableAutoSave": true,
+  "cursor.chat.autoApplyFix": false,
+  "cursor.chat.showSuggestedQuestions": true,
+  "cursor.copilot.enableAutoCompletion": true,
+  "workbench.colorTheme": "Default Dark Modern",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/tsconfig.*.tsbuildinfo": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.cursor/rules/reference/business-examples/**": true
+  },
+  "editor.rulers": [80, 120],
+
+  "recommendations": {
+    "extensions": [
+      "bradlc.vscode-tailwindcss",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-typescript-next"
+    ]
+  }
+} 

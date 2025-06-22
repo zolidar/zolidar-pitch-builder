@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# TypeScript build info
+*.tsbuildinfo
+tsconfig.*.tsbuildinfo
+
+# Generated content (within scripts folder)
+scripts/generators/generated-pdfs/
+scripts/generators/temp-slide-images/
+scripts/generators/slide-screenshots/
+
+# Development backups
+.backup/
+*.backup
+
+# Large reference files (keep repository lightweight)
+.cursor/rules/reference/business-examples/*.pdf
+.cursor/rules/reference/business-examples/*.doc*
+.cursor/rules/reference/business-examples/*.ppt*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Environment and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Startup context - OPTIONAL: Uncomment if your business data is sensitive
+# startup-context/
+
+# Individual sensitive files (customize as needed)
+# startup-context/narrative.md
+# startup-context/supporting-docs/financial-projections.md

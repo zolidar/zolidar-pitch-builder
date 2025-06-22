@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.timeline-card {
+  @apply bg-white p-4 rounded-lg shadow-md text-center;
+}
+.timeline-card-minheight {
+  min-height: 80px;
+}
+
+/* Print styles for PDF generation */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+  }
+  
+  #root {
+    background: white !important;
+  }
+  
+  /* Hide navigation elements */
+  button, .text-slate-600 {
+    display: none !important;
+  }
+  
+  /* Ensure slide container fills the page properly */
+  .aspect-\[16\/9\] {
+    width: 100vw !important;
+    height: 56.25vw !important; /* 16:9 aspect ratio */
+    max-height: 100vh !important;
+    margin: 0 !important;
+    page-break-after: always;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  
+  /* Ensure proper page breaks */
+  .min-h-screen {
+    min-height: 100vh !important;
+    page-break-after: always;
+  }
+  
+  /* Last slide shouldn't have page break */
+  .min-h-screen:last-child {
+    page-break-after: avoid;
+  }
+  
+  /* Styles for all slides view */
+  .print-slides-container {
+    background: white !important;
+  }
+  
+  .print-slide-page {
+    width: 100vw !important;
+    height: 100vh !important;
+    page-break-after: always;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .print-slide-page:last-child {
+    page-break-after: avoid;
+  }
+  
+  .print-slide-page .aspect-\[16\/9\] {
+    width: 90vw !important;
+    height: 50.625vw !important; /* 16:9 aspect ratio with some margin */
+    max-width: 1200px !important;
+    max-height: 675px !important;
+  }
+}

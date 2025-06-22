@@ -1,0 +1,441 @@
+Rippling Memo
+Rippling’s premise is that businesses should have a single system for
+employee information across every department within the company.
+That’s not the way it works today. 
+OVERVIEW
+Most businesses have dozens of systems that maintain a list of their employees, and for the most part,
+none of these systems talk to each other or to any
+central system about who these employees are.
+Sometimes, these business systems only need to
+know a little bit about each employee — maybe just
+each employee’s username, and a password, so that
+the system can authenticate employees when they
+log in. Other systems go deeper, and need to know
+each employee’s department, manager, salary, home
+address, and more.
+Whenever something changes about an employee,
+many (and sometimes, all) of these systems need
+to be updated, and because they don’t point to any
+central authority, they each need to be updated separately and by hand.
+We believe that the effort to maintain this fragmented
+employee data across all of a company’s business
+systems is, secretly, the root cause of almost all the
+administrative work of running a company.
+There should be a single system of employee data
+that sits underneath every other business system.
+Companies and their employees could come to this
+one place, and make changes to employees in this one
+system, and that system would handle the propagation out to every other business system.
+That’s what Rippling is, and that’s what we do.
+OUR STRATEGY
+Our strategy, in a nutshell, has 3 parts:
+Part I: If you can be the system of record for
+employee data, you can build a really successful
+business.
+Being the system of record for employee data is lucrative because this system has platform power that
+can be used in other business software and services
+categories that need to access this underlying employee data.
+At one extreme, if you’re the system of record for
+employee data, you can build adjacent products with
+exclusive access to your system. That’s what we did at
+my last company, Zenefits. Zenefits was a system of
+record for employee data within the HR department,
+and in order for clients to connect their insurance
+up to Zenefits, they had to make us their insurance
+broker.
+Because this connectivity made life easier for the
+client, most Zenefits clients chose to make us their
+broker. But we could have arbitrarily done this in any
+number of other areas with a strong tie to the employee record, besides insurance.
+And, you can take a different approach, which we prefer at Rippling — you can partner broadly with other
+companies and be a reseller: you can allow other
+companies to operate in your system, you can bring
+them new clients, and in exchange, they pay you a cut
+of their revenue.
+This belief — that the system of record for employee
+data is valuable — is the least unique, and probably
+the least controversial, part of our strategy.
+Introduction
+Rippling’s premise is that businesses should have a single system for employee information
+across every department within the company. That’s not the way it works today.
+2 Rippling Memo
+Almost every other HRIS and payroll company views
+the world this way. ADP is the largest payroll company
+in the US by market cap, and they make most of their
+revenue not selling payroll — but by selling a host of
+ADP add-on services (time tracking, performance
+management, benadmin, etc) that happen to plug in
+to the core ADP payroll system. Certainly Zenefits,
+Gusto, and Namely also count this as a part of their
+strategy.
+Outside of HR, this is also Microsoft’s strategy in
+their enterprise business segment. Microsoft’s Active
+Directory is also a system of record for employee data
+— just one that happens to be used by the IT department instead of the HR department. Microsoft brings
+Active Directory into a company, and then upsells the
+company on other Microsoft services — Exchange
+Server, Sharepoint, Windows PCs — that plug cleanly
+in to Active Directory.
+So, many companies agree that being the system of
+record for employee data is valuable, and Rippling
+is not the only company gunning for this prize. The
+question then becomes, how do you “win” at being the
+system of record for employee data?
+Part II - Onboarding Software makes you the
+system of record for employee data.
+There is a button you click in Rippling to hire an
+employee. As a hiring manager, you tell us the new
+employee’s Salary, Manager, Department, Work Location, and a few other things.
+Rippling then reaches out to the new hire, generates
+their paperwork for electronic signature, and then
+asks the employee for details like their Social Security
+Number, Home Address, and Bank Account Number.
+These hiring and onboarding flows are the way this
+new employee object is assembled. Rippling is collecting each of the employee attributes that make up this
+employee record, we are writing them to our database, and then we are metering them out to all of our
+clients’ downstream business systems.
+By virtue of being the ingestion point for this employee data, and because we are upstream of everyone
+else in this process, Rippling is the system of record
+by definition. Because every other business system
+is receiving its information about the company’s
+employees from us, we become the de facto source of
+truth.
+Stated slightly differently: if a new hire were to misenter their Social Security Number into Rippling, it
+would be wrong everywhere — in payroll, with insurance carriers, with the 401k provider, etc.
+As a result of this, we are uniquely fanatical about
+employee onboarding software. For our competitors,
+employee onboarding tools may be useful features,
+helpful to clients. But for us, onboarding software
+is the only thing that matters, because if you win at
+onboarding, you win everything else.
+Eventually, though, if we’re successful, other companies will come around to our point of view on the central role this software will play in the B2B ecosystem,
+and will refocus their own efforts to develop employee
+onboarding software. The question then becomes,
+“how do you win at employee onboarding software?”
+Part III - To win at employee onboarding, you can’t
+be monogamous to any single department or
+functional area.
+Many companies maintain informal checklists of the
+tasks they need to complete when hiring a new employee. To win at onboarding, you need to automate
+more of a company’s new hire checklist than anyone
+else.
+But, these onboarding tasks cut across many different departments — it’s our experience that about
+30% of a company’s onboarding tasks are HR-related.
+About 40% are IT-related. And there’s a smattering of
+Finance, Legal, and Facilities-related tasks that need
+to be completed for every new hire, as well.
+If your company’s mission is to make HR software, or
+to build software for the Finance department, or the
+IT organization, you can only solve a portion of this
+onboarding problem — because the onboarding pain
+that businesses have isn’t specific to one department
+or functional area.
+To effectively solve employee onboarding, you have to
+orient your product around employee lifecycle events
+— getting hired, getting a new job or role, moving to a
+new address, getting promoted, leaving the company
+— and follow the downstream implications of these
+lifecycle events wherever they lead.
+3 Rippling Memo
+This means you need to have tentacles into all of
+these different departments and functional areas,
+and all the different 3rd party systems they use. If you
+build your software for one particular buyer or department, you will eventually lose to the company that
+solves the whole problem.
+Onboarding Sidebar
+It’s worth noting that the term “onboarding software”
+is used to mean different things by different companies.
+Some companies have built project management
+apps for HR that assign out tasks and track completion whenever someone joins the company. These
+apps are sometimes called “onboarding software,”
+but they bear no relation to the product we have built,
+because they lack any downstream systems connectivity.
+As a result, they’re both less useful to the employer
+(these apps can assign you work, but they can’t do
+it for you), and strategically less interesting (without
+downstream systems connectivity, they are no longer
+a source of truth for employee data).
+.
+4 Rippling Memo
+Product Overview
+The best way to understand our product is to see it. We encourage you to get a demo of the product from us or,
+failing that, visit our marketing website at www.rippling.com, which gives a good high-level overview.
+RIPPLING IS A HYBRID OF THREE
+DIFFERENT SOFTWARE CATEGORIES:
+• An all-in-one payroll, benefits, and HRIS system.
+• An “Identity” / SSO / Password manager system, akin to Okta, OneLogin and OnePassword.
+• An endpoint device management system, akin
+to JAMF and similar systems for Windows PCs.
+On the surface, this is a weird combination. It makes
+sense only because these three systems are each
+hubs for employee data within a company.
+HR systems’ connection to employee data is obvious.
+But it’s not immediately clear how IT systems are tied
+to the employee record.
+IT’s connection to the employee record is that IT
+security is ultimately about controlling systems access — who should have access to what systems and
+software within your company? How should those
+users be configured within those systems? What level
+of permissions should they have?
+Those questions are, in turn, really about ‘who are
+your employees?’ and ‘what is their role or level or
+function in your organization, and therefore what type
+of access do they need to do their job?’
+Those questions — questions which underlie a great
+deal of the daily administrative work performed by IT
+professionals as they set up and configure accounts
+and computers and systems — are fundamentally
+questions about the employee record.
+Stated differently, Okta sometimes describes their
+category as “Employee Identity.” But, we believe this
+name is, for Okta, aspirational at best. Okta’s actual
+product is Single-Sign-On and password management. Any true system of employee identity — going
+5 Rippling Memo
+back to the original meaning of the word “identity” —
+would be inseparable from information about each
+employee’s role, department, and function within a
+company. In other words, a company’s HR data.
+One small example of this:
+In many companies, IT is responsible for maintaining
+company email lists. A hypothetical company, Acme
+Co, might have 56 people on the email list ‘engineering@acme.com.’ Current IT systems will all treat the
+56 people on the list as “users,” without understanding anything about their underlying role within the
+business. But these aren’t 56 random individuals!
+They’re engineers, in the engineering department.
+If you could speak to your IT systems in terms of HR
+concepts like someone’s department, or role, or work
+location, you could just add that department to the
+email list. And this, in turn, would dramatically simplify
+the administration of those systems.
+One of my favorite parts of a Rippling demo is when I
+show prospects how you can add not only individuals,
+but also HR concepts like the “Engineering Department,” or a particular work location, or all managers in
+the company, to an email list in Rippling:
+The neat thing about this is that Rippling isn’t just
+going back and adding all of the individuals in those
+buckets to that email list in GSuite or Office365. Rippling will also maintain the fidelity of that data going
+forward — so that the next time you hire an engineer,
+or the next time someone gets promoted to be a manager, they’re going to be added to that email list.
+And, taking that one step further: When you hire
+someone in Rippling and you tell us this person is in
+the engineering department, that changes everything
+about how Rippling sets them up in your systems:
+It changes what systems they’ll have access to — AWS
+and GitHub perhaps, but not Salesforce. It changes
+what email lists they are subscribed to. It changes
+what software is installed on their computer.
+And when someone’s role within an organization
+changes, Rippling isn’t just changing payroll and HR
+systems — we’re reconfiguring the systems they have
+access to, the email lists they are subscribed to, and
+the software and level of access they have on their
+work computer.
+6 Rippling Memo
+Competition
+OVERVIEW
+As mentioned previously, Rippling is a hybrid of three
+different software categories:
+• An all-in-one payroll, benefits, and HRIS system
+• An “identity” / access management system
+• An endpoint device management system
+This also means that Rippling competes with three
+very different types of companies. Not every deal involves all three components — some deals are IT only,
+some deals are HR-only and of course many deals are
+both.
+COMPETITOR BREAKDOWN
+• On the payroll and HR side, we compete against
+Gusto, Zenefits, Namely, ADP, Paychex, and
+other similar companies. If a client chooses to
+use Rippling on the payroll and HR side, we are
+almost always replacing one of these systems.
+• On the identity side, we compete against Okta,
+OneLogin, LastPass, OnePassword, and similar
+companies. We’re much less likely to be replacing one of these systems — most companies we
+sell to haven’t purchased them yet.
+• On the device management side, we compete
+against JAMF (for mac), Microsoft (for PC management), and a few newer, but smaller, competitors. As with Identity systems, we’re much
+less likely to be replacing one of these systems
+— most companies we sell to haven’t purchased
+them yet.
+There are ways in which Rippling wins or loses going
+head to head against any individual one of these
+competitors (for what it’s worth, on the HR side, we
+believe our product is superior to every other system
+on the market).
+But the larger dynamic is that each of these competitors thinks of themselves far more narrowly than
+Rippling does: they make HR software, or Identity
+software, or device management software. It’s embedded in their culture and mission statements and
+taglines. These companies are going to stay in their
+swim lanes.
+They might partner — but these partnership will
+always be thin tethers connecting otherwise unrelated
+systems.
+7 Rippling Memo
+Performance to Date
+OVERVIEW
+We launched our benefits administration product
+around May 2018, and most of our sales metrics
+improved dramatically at that time. Internally, May
+2018 was the point where we shifted our focus from
+product expansion to revenue growth.
+Rippling has grown unusually quickly since that time,
+and we closed January 2019 with $XXmm in ARR.
+We’ve averaged 20% Month over Month growth since
+January 2018, but that growth rate appears to be accelerating — in the last 4 months, our average growth
+rate was 25%, and in January it was 29%. The time it
+takes for our revenue to double recently dropped from
+four months to three.
+While many startups have revenue graphs that go up
+and to the right, it is much less common for a graph of
+month over month growth rates to do the same:
+8 Rippling Memo
+NPS SCORE
+Equally important is that this growth has not come at
+the cost of client satisfaction. Our Net Promoter Score
+in January was 70, and has averaged 66 over the last
+several months:
+R&D INVESTMENT
+Building something like Rippling isn’t cheap. As you’ll
+see if you take a demo, the product surface area is
+large. To hit our MVP, we’ve had to (re)build a payroll,
+benefits, and HRIS system that took companies like
+Zenefits, Gusto, and Namely years and tens of millions
+of dollars to build. And, we’ve had to build versions of
+Okta, OnePassword, and JAMF alongside it.
+To do this, we’ve invested in a great deal of up-front
+R&D. For most of the last two years, Rippling was a
+company of almost entirely engineers (there are just
+over 40 today, or roughly 2/3 of our headcount). It’s
+only recently that we’ve been growing the sales team.
+The downside of this is that building something like
+Rippling wasn’t cheap, and the company’s total OpEx
+burn to date — roughly $XXmm — is more substantial
+than most startups as a result.
+However, we believe that our growth rates demonstrate that our bet was essentially correct — we’ve
+built the right product, one that customers want, and
+we’re now winning deals against much larger and
+more mature companies that have spent a lot more to
+get to where we are.
+Our gross margins show that the product is software
+end to end, and our sales and marketing ratios (magic
+number, etc) show that this growth is based on sound
+fundamentals.
+9 Rippling Memo
+Why Now?
+I know this is a popular question for some firms so I’m including answers below, but the simple truth is that I
+think Rippling could have been, and should have been, built seven years ago. But it wasn’t. So, we’re building it
+now. With that caveat, here are some reasons it’s a bit easier today:
+THE PAIN IS INCREASING
+Five years ago, the sales organization at Zenefits
+mostly used just one system: Salesforce. Today, most
+SaaS sales organizations are probably closing in on
+10. Internally at Rippling, we use Salesforce, but also
+Zoom, Calendly, Outreach, Gong, Intercom, and Marketo. Add in the marketing team, and there’s probably
+another dozen or so.
+As a result, there’s now a systems administration
+headache in the sales department that didn’t exist
+previously. Someone in the sales department — the
+VP of sales, or sales ops — needs to add new hires
+to each of these systems. If someone gets promoted
+from SDR to Account Executive, their access needs
+to be reconfigured across these systems. And if you
+don’t shut off access immediately when someone
+leaves, you risk leaking sensitive customer information.
+In some ways, the deadweight loss from the SaaS
+revolution is this increasing systems complexity.
+The more new services there are, the more you need
+something like Rippling to sit underneath them and tie
+them together.
+THIS IS THE LOGICAL NEXT LEAP
+IN HR TECHNOLOGY
+Zenefits was the first company to market “All-in-one
+HR.” By combining previously-disconnected systems
+for payroll, benefits, and HR, Zenefits gave you a button to hire someone, and they were automagically
+set up in all your different HR systems. Regardless
+of Zenefits’ ultimate outcome, we were right about
+the market. This market positioning (and to a lesser
+extent the product) was largely copied by others —
+Gusto, Namely, ADP, and Paychex all now describe
+themselves as “All in one HR.”
+But the pain point that Zenefits solved (the single
+onboarding flow for all your HR systems) isn’t unique
+to the HR department. Now that everyone is All-inone-HR, the logical next step is to extend this concept across the entire company, pushing outside the
+boundaries of the HR department.
+SOME MARKET EVOLUTION MADE
+RIPPLING’S PRODUCT EASIER TO BUILD
+• Okta’s success in the enterprise market has led
+to many companies building SAML and user
+API endpoints we were able to plug in to, to get
+hundreds of integrations live without the need
+for slow-moving partnerships.
+• It’s easier to build a payroll system than it was
+5 years ago because you can use off-the-shelf
+tax engines sold by XX and outsource tax-filing
+and payment to vendors such as XX. It’s also
+easier to build benefits administration software
+because of vendors like XX and XX. (At Zenefits,
+we had to essentially build XX and XX in order to
+manage insurance — now those pieces can be
+vendor relationships).
+• Very high bar for MVP—you need to build a lot
+of product for Rippling V1. You need to hire a
+lot of engineers, and raise a lot of seed money
+up-front for the build stage. I would not have
+been able to finance this company the first time
+around. Additionally, given this product-surfacearea problem, React and API-first development
+make it easier to build a large-surface-area product and scale the engineering team horizontally
+with less overhead.
+10 Rippling Memo
+Network Effects &
+the ‘Supermarket for SaaS’
+RIPPLING IS NOT AN HR SYSTEM
+Rippling is not an HR system — we call it an Employee
+Management System to distinguish it from HRIS
+systems, precisely because we think the problem we
+solve is much broader than HR, and the right system
+to solve this problem is a level down in the stack from
+an HR system, or even the HR department itself.
+We think every company that currently has a payroll system would be better served by an Employee
+Management System, instead — one that integrates
+broadly to manage employee data across the company. Over time, if we’re right, perhaps markets will
+shift in this direction.
+It’s worth asking: “How will the market for employee
+management systems be different than the one for
+payroll and HR software?”
+One key difference is network effects.
+Today, ADP is the largest payroll company in the
+United States. But the market is fragmented. ADP
+only has about 15% - 20% market share, and there
+are tens of thousands of payroll service bureaus.
+That’s because there’s no self-reinforcing advantage
+to being the market leader — nothing about ADP’s
+position as the market leader makes my experience
+as their client any better.
+That is, in part, because ADP views their world narrowly. In ADP’s world, there are only 7 or 8 systems
+that abutt payroll and HRIS — things like time tracking, performance management, benefits administration, and retirement.
+But an employee management system has many
+more adjacencies than a payroll system — probably
+70 or 80 thousand of them.
+This introduces a different dynamic — one where any
+market leader has swiftly compounding advantages
+over the other competitors in the space. The company
+with the most integrations will get the most customers, because clients will naturally choose the product
+that can connect with the most of their current and
+future business systems, and the company with the
+most clients will get the most integrations — because
+3rd-party engineers can only build and support apps
+in a limited number of systems and will naturally let
+market share guide their decisions on where to build.
+The effect of this shift is similar to how the introduction of smartphone app stores led to rapid concentration of market share in the handset industry. This
+new market for Employee Management Systems will
+be much more concentrated than the one for payroll
+software: perhaps the market leader has 60% market
+share, and the number two player has 30% market
+share, and everyone else is fighting of the remaining
+10%.
+As a result, the market leaders for employee management systems could be successful on a much larger
+scale than even the most successful of today’s payroll
+and HRIS companies.
+The bull case for Rippling is that we could be one of
+them.
+11 Rippling Memo

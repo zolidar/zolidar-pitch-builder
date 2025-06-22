@@ -1,0 +1,426 @@
+their data is a lot more powerful than just this sort of directory listing of
+17:00
+of the usernames and passwords for everyone in the business so anyone who has a fundamental graph seems to also
+17:06
+have um a market size in the hundreds of billions well that sounds great where do i sign
+17:12
+up for that sounds like you're on on track i mean do you think that there's a different
+17:17
+type of organization that can happen with this type of software i mean one of the things that i've been thinking about
+17:23
+a lot is um these organizations get sort of only so big because you know there's uh
+17:29
+kosa's theory of the firm right that firms get only so big and then they become sort of
+17:34
+um encumbered by the uh communication cost internal to that
+17:40
+organization that's really interesting i so i didn't i wasn't familiar with that that concept but one of the things that
+17:46
+we do is we try to to build a compound startup
+17:51
+we try and have these individual business units um that are often led by um you know
+17:58
+former founders rippling has a really high concentration of of people who have started companies
+18:04
+previously in their careers um and we hire them to basically start and run
+18:10
+products and business units within rippling and one of the things that we're trying
+18:15
+to do is actually disconnect each of these business units
+18:20
+from each other as much as possible um we're not there yet but sometimes people talk to me internally about how we
+18:26
+really need to like you know this team needs to coordinate with that team and every time i hear that i kind of
+18:33
+think to myself like man that sounds terrible that sounds like that's never going to work and instead like let's find a way that
+18:40
+they don't have to coordinate with each other and they can you know there there's some you know sla or interface
+18:45
+for whatever interaction they need to have and then they can operate independently without being held back by
+18:52
+um by the other team i mean what you were saying earlier uh and then if you combine it with this what you're sort of
+18:58
+saying is actually uh being able to be even a startup within a startup or a team of teams like
+Rippling: a team of teams
+19:05
+ryan peterson likes to call it a team of teams that's sort of being supported by the software that you had to build for
+19:11
+the customers already which is that employee graph and then there's sort of new middleware you're building around
+19:17
+things called unity for instance that really i mean what it allows is a new
+19:22
+engineering team like product design engineering team within rippling can go from like and
+19:29
+basically an idea to a fully functioning sas product with thousands of customers
+19:35
+like seemingly overnight or maybe in the course of like six or nine months whereas if you're an external startup
+19:42
+trying to like you know rub two pennies together you know you might never do it yeah well that's the idea we like to
+19:48
+think that basically you know if you're if you're gonna start a new business inside of rippling
+19:54
+there's a bunch of advantages that we can provide and some of it is distribution
+20:00
+that you know we've been good if we look at the we launched i think five or six new products last year
+20:06
+and i think we will launch about six or seven new products in 2022
+20:12
+and each one that we launch the ramp curve is faster than the last one and so
+20:17
+the most recent one we launched is this product called inventory management you can think of it as like a cloud i.t
+20:23
+closet and so when you when you terminate an employee in rippling you have this option where we'll just
+20:29
+like send them a box to collect their computer and that terminated employee puts the
+20:34
+box the computer there's a prepaid shipping label and it goes to a warehouse that was run by one of our
+20:40
+partners and they then you know get the computer out they wipe it they clean it you know physically and you know and and
+20:46
+the the user accounts and stuff like that and then it's like listed for you so the next time you hire someone you can just ship that same computer
+20:53
+right back out to them and that product launched four months ago and it's already at about eight hundred thousand
+21:00
+dollars in ar and growing about 40 month over month and that that's the fastest that we've
+21:06
+had a new product grow but all of them have just increasingly been the time to hit a million in revenue the time to hit
+21:13
+5 million in revenue has just been shrinking with like every new product that we launch
+21:18
+but the other thing that you get when when you start one of these new products at riplane is there's a lot of there you
+21:24
+know a lot of business software ends up being built from the same fundamental
+21:29
+underlying lego blocks you have you know role-based permissions you have
+21:35
+reports and analytics workflows policies alerts and
+21:41
+you take those set of components and you sort of set up one data model
+21:47
+and a slightly different a very particular ux and you rearrange them and you get a time tracking system
+21:53
+but then you take the same set of underlying components and a different data model and a
+21:58
+different ux and suddenly you have an expense reimbursement system or
+22:04
+a learning management system or any number of other sort of products that you might need to build for businesses
+22:10
+and because because you're using the same set of sort of middleware components
+22:16
+over and over again some of the things that that customers really care about when they're buying
+Rippling's reporting capabilities
+22:22
+business software that often the teams that are building these products don't care about as much
+22:29
+those things in rippling end up being really good a lot of companies when they build business software
+22:34
+they end up building reports because their client makes them do it you know they kind of clutch it on as an afterthought
+22:40
+but at rippling when we build reports and we go really deep on that concept and we can you know we're trying to
+22:45
+build a bi tool that will compete with stand-alone bi systems
+22:51
+and then every product that we build has has report reporting capabilities that are at that level of sophistication
+22:58
+i guess i'm seeing two different levels of this uh courses theory of the firm sort of playing out one is at the like
+23:05
+internal to rippling level where you're basically able to create new lines of business that go from zero to
+23:12
+multi-million dollar per year and then ideally ten to hundreds of millions in the future and that's sort of like a you
+23:19
+know a new innovation at the internal level and then on the on your customer
+23:24
+level there's this other thing that happens where you know that product that you were mentioning you know ever who
+23:29
+doesn't want to have proper you know laptop clean up and reuse like what happens today at most firms
+23:36
+they probably just walk out the the door with it with all your confidential information or you know certainly
+23:42
+maybe you get the laptop back and it goes in a closet someplace because someone can't stacked up in your apartment somewhere and you don't covet
+23:48
+i mean that's that's what happened to us is we had you know there was a woman that ran this for us and she had
+23:55
+just stacks of laptops piling up in her apartment in san francisco and you know things like that don't have to happen if
+24:01
+rippling can actually offer more and more of the standard services that are really just best practices we already
+24:07
+know who all of your employees are we know their home addresses it's integrated into the same flow that you
+24:15
+use in rippling to terminate an employee and calculate their final paycheck and
+24:20
+administer cobra and all that kind of stuff so if you add this thing it's it's no more work nothing else to manage
+24:27
+one of the things that sounds really powerful that is probably really underplayed and
+24:33
+uh one thing that i really love about what you've done with rippling is like you always had a great focus on this was
+A different way to support customers
+24:40
+customer support like i just always loved the idea of getting your engineering team to go and actually feel
+24:47
+the pain of your customers because then it comes out in a bug report and most people sort of just
+24:53
+drop it right in the bit bucket like you don't do anything with it but you've taken a much different stance like from
+24:59
+the beginning and then now it sounds like you've taken uh an even more of a leadership role in
+25:05
+like pioneering this like radical form of uh customer support actually the
+25:10
+scariest launch i've done in my entire career we did a few weeks ago because we we took this move where we
+25:17
+started publishing uh daily customer support stats basically all of the data that i look at
+25:23
+internally for our support team we started publishing right on our public-facing
+25:30
+site you can go look at it's rippling rippling.com support status
+25:35
+and it's scary because you know look we're not perfect and we've had we've had blips in the past on our support and
+25:42
+i'm sure we will have blips in the future and when we do it's going to be out there for everyone to see you know
+25:48
+competitors customers everything but i think it's really the right thing for the industry and for our customers
+25:55
+because um first it really holds us accountable and then for customers one of the things
+26:00
+that we find a lot is look i think we have a really cool product and really differentiated
+26:06
+technology that solves a real problem but what we find is that in in sales conversations with customers
+26:13
+the big question they always have is about the support quality and particularly for a product like what
+26:19
+we do that's so core to your business if you're running someone's payroll they get really nervous about what happens if
+26:25
+it doesn't work and i can't reach someone at the end of the day we sort of realized and the reason we decided to do
+26:30
+this in addition to it being the right thing to do is we sort of figured no one's going to believe us if we just say
+26:36
+oh no we have great support because everyone says they have great support and most companies don't and the only
+26:42
+way to really get credit for it is to take this leap and put yourself out there and actually publish the
+26:48
+underlying data and so my hope is that a lot of other companies will follow suit and do this
+26:55
+and i think that if you have a vendor or software company that you're working with that doesn't do this
+27:03
+you should sort of think about why they're not willing to do it um and that should sort of tell you something um
+27:10
+there are also i mean we've done support very differently since since we started and there are a number of i think
+27:16
+i think really interesting things that we do to sort of try and make these support stats really good
+27:22
+and it used to be i think one of the things that happens is when you're an early stage company i think you can have great support just
+27:29
+by really caring a lot about support and the problem is as you start to scale
+27:35
+just caring about it like doesn't really matter anymore um that will only kind of get you so far the prioritization thing
+27:42
+and then when you have 10 things that are all priority none of them have a priority then i think it's about you can
+27:47
+make it a priority but it still sucks i think it you know just caring doesn't matter anymore you
+27:54
+have to be like really analytical about sort of how you're going to make it great and and
+28:01
+solve this sort of scaling challenge that's your dashboard right a dashboard or something the dashboard you can see
+28:06
+is one thing but there are a few other things that we've done um and one of the things that was really interesting
+28:12
+we had about a year ago we were struggling with support um and um we had you know much longer response
+28:19
+times than than we wanted um and i was getting daily reports that showed me
+28:26
+median time to first response on all of the different sort of channels
+28:32
+that we offer support through chat through email through et cetera et cetera one of the things that we started doing and it was incredible it solved
+28:39
+this problem like overnight is i forced the team to start reporting on 90th percentiles
+28:46
+instead of 50th percent oh yes and so i said basically look we're not going to look at the median
+28:52
+and we looked at the medium and what we the reason i did this is we discovered that 90th percentile was like way worse
+28:58
+than the median and i said the only thing that i that that anyone's allowed to look at and the
+29:03
+only thing that i want to see is the 90th percentile which is a much more punishing statistic it basically
+29:09
+says it's like what is the worst 10 of the support interactions that you have
+29:15
+and we started reporting on that and within a week the support time to first response
+29:21
+numbers dropped so dramatically because what happens is when you're if you want to improve your support and you're
+29:26
+looking at the media and support interaction it's really hard to figure out like what you need to do there's
+29:31
+kind of you're kind of like well i don't know like what do we do like you know you kind of go to your team like try harder guys you know like try and get
+29:36
+back to customers faster but when you look at 90th percentiles it immediately calls out exceptions you
+29:43
+start looking at like well that's crazy like why did it take us you know
+29:49
+you know an hour to respond to a customer chat and you look at it and you start figuring out it's much easier to
+29:56
+wrap your head around you notice things like in our case we noticed that you know we would open up sort of support at
+30:03
+you know 8 a.m or something like that and we would discover that gosh you know a lot of the support managers were
+30:10
+having one-on-ones with their team right at 8 am when we opened when we opened up the chat support line and so people were
+30:15
+sitting there without getting answers and so you could see that stuff when you focused on the 90th percentile
+30:21
+and the worst interactions and one things we found is we didn't even look at the medians but the medians
+30:27
+dropped astronomically because it's impossible if you focus on just chopping
+30:33
+off the worst 10 of support interactions it's impossible not to improve the
+30:38
+medians as well and like everything just dropped dramatically within the course of about two weeks so one of the
+30:44
+learnings that i had was like if you're if you want to have great support as a company you've got to focus on the
+30:50
+relentlessly on the outliers on the worst interactions and that sort of naturally brings things down the
+30:56
+other thing that really worked well for us was looking at was routing
+Routing through machine learning
+31:02
+we spent a lot of time building systems to route tickets in software
+31:07
+really it's one of the only places in rippling where we do a lot of machine learning but basically figuring out ways where
+31:15
+you could constantly as our support organization has grown you know we have now i think like two or
+31:21
+three hundred support reps and what what you want is as your support organization grows you want to constantly
+31:27
+basically shard your specialties until you get to narrow narrower and narrower
+31:33
+areas of focus and so when we were a small company it was like well you know bucket for a bucket for payroll a bucket
+31:38
+for single sign on an app management a bucket for devices and then as you get bigger you take that payroll bucket and
+31:45
+you break it down further and you have a specialty for you know benefits deductions a specialty for
+31:52
+garnishments a specialty for all these different things and you just keep cutting it further and further and further so that
+31:58
+you know every rep in the company has a specialty that they become like really
+32:03
+the the product expert on you know they understand all of the things that go wrong for
+32:08
+customers with that product what are the questions they have what are the issues that they encounter and because of that
+32:15
+when you email in to riplane and you have a question your question gets routed to someone who knows these issues
+32:22
+like backwards and forwards and can answer it immediately what that does is that dramatically improves the
+32:29
+likelihood that they can answer your question on the first response which means you're more satisfied it means
+32:34
+they get back to you faster and it also is more efficient from a cost perspective because those interactions
+32:40
+where you have like 10 back and forth with someone those are always just way more costly and leave them like much
+32:45
+less satisfied how do i mean both of these are incredible sort of actually nuggets that are really it's almost like
+32:52
+finding something in the wild it's like some new phenomenon that turns out to be true like the 90th percentile not the
+33:00
+50th for instance is like that's fascinating do you have any tips for people watching
+33:05
+who are running companies who are just trying to figure out like well how did you learn that i have have this theory
+How to use the extremes of your data
+33:12
+that that in a lot of places in a company um you're much better off looking at
+33:17
+streams of individual data points than aggregate data an example is in customer
+33:22
+support is um you know i look at sort of overall you know csat scores and time to
+33:29
+first response and things like that but the thing that i've always found most powerful is there's a slack channel that we set
+33:36
+up where anytime someone marks themselves as dissatisfied with a support interaction
+33:43
+it sends a message to the slack channel it includes a bunch of information about the customer you know like who who the
+33:48
+person was what their role is with the company the size of the customer the the products that they purchased in rippling
+33:55
+and like a link to the ticket and a summary of the support interaction at one point i looked at every single time
+34:02
+someone marked us like thumbs down i would click in and watch that ticket and i don't do it every single time anymore
+34:07
+but sometimes when i have a spare hour i'll go in and just kind of look at the last 25 that came through and sometimes
+34:14
+you go in and you know look sometimes customers are upset but actually like i look at it and i think we did a great
+34:20
+job on the support side and i always think that that that type of
+34:25
+that way of looking at the company looking at streams of anecdata rather than sort of global top-down
+34:32
+metrics is a lot more powerful precisely because you can uncover a lot of these issues you get a lot more
+34:38
+insight because you have a lot more context aggregate data is helpful when you fully
+34:44
+understand the problem and you just need to kind of measure your performance but if if you don't
+34:50
+fully understand it which is most of the time the situation that you're in at you know running a company i think anecdata
+34:58
+is superior to data like nine times out of ten um because you have all of this
+35:04
+context around the issue and and you start to notice things that you're like well this is what's going on
+35:11
+in this case and you notice patterns that then lead you to make better decisions
+35:16
+i'm spotting a really important pattern here which is you know whether it's anecdata or data or
+35:23
+it really is about just awareness and consciousness like if there's a problem you need to know about it
+35:30
+and then it's led you to very innovative things like you know there's a billboard outside here
+35:36
+that actually has your number of seconds or minutes to a customer support person
+35:42
+right now yeah so one of the cool things one of the side benefits i think of starting to publish
+35:48
+our support metrics we think of it you know we were inspired by sort of like status pages for uptime for
+35:54
+websites you know kind of like why isn't there a status page for customer support that's doing the same thing one of the
+36:00
+sort of benefits of this is that look now when we get customers who are you know frustrated with the support
+36:06
+quality they have with you know one of our competitors for example or they're nervous about you know starting with a
+36:12
+new company and they don't know how good the support is going to be we can just say look you don't have to
+36:17
+take our word for it we're publishing all the data on this like you can go see it yourself and that that's been really
+36:23
+powerful for example we tried we started reaching out to prospective customers with
+36:29
+this message about our real-time support stats and the conversion rates on some
+36:35
+of these marketing campaigns are double or triple what they were
+36:40
+for just our standard outreach about our product like like pointing out this sort of like
+36:46
+measured public support quality has been phenomenal from a marketing perspective and so that's why we're now doing things
+36:53
+like putting up billboards to sort of talk about sort of hey look here's here's yesterday's time to first
+36:58
+response for rippling support in seconds yeah i think that's so powerful because you run
+37:04
+across businesses all the time and they say that they're customer you know focused or you know and the hard part is
+37:11
+you know don't look at what they say look at what actually happens that's right and how do you how do you know if
+37:16
+they i mean look and maybe maybe they're incredibly well intentioned you know like maybe they they really want great
+37:21
+support but at the end of the day you know uh caring about it is not enough like you
+37:28
+you need to be really steely-eyed about sort of how you're gonna deliver this
+37:35
+experience to customers effectively i think the only way for customers to really know that is to like see it in
+37:41
+stark relief and see the data i mean obviously i'm biased because i got to see you like in multiple over many many
+37:47
+years build multiple companies but i don't know this focus it's sort of like
+37:52
+this data oriented hyper empathy for the customer also like this innovation of like compound startup i mean
+38:00
+i really think you're gonna build this trillion dollar company man i hope so that'd be great but that's what it takes
+38:06
+like i think that we just live in sort of a new realm where a lot of these companies were built
+38:11
+without software they were built without like the ability to have that sort of consciousness about like oh this thing's
+38:17
+happening we need to fix it in this way but you're doing it so thank you well thank you

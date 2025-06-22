@@ -475,4 +475,12 @@ Make the slide professional and readable while keeping the existing design syste
 - Sequoia Capital - Systematic structure and comprehensive coverage
 - Parker Conrad (Rippling) - Strategic depth for complex platform businesses
 
+**Source Materials**:
+- [Vinod Khosla: Nail Your Raise - Luring VCs](https://www.khoslaventures.com/nail-your-raise-luring-vcs/) - Slide deck and masterclass
+- [Vinod Khosla Video Presentation](https://www.youtube.com/watch?v=mikw_w6De1g) - Video walkthrough of pitch methodology
+- [Sequoia Capital Pitch Deck Template](https://www.uvic.ca/gustavson/_assets/docs/pitch-deck-template-web.pdf) - Systematic structure framework
+- [Rippling's 2024 Investor Memo](https://www.rippling.com/blog/rippling-2024-memo) - Memo-style fundraising approach
+- [Rippling Fundraising Deep Dive](https://www.youtube.com/watch?v=zAYPT6CrWRQ&t=1030s) - Platform business strategy
+- [Rippling Scaling Insights](https://www.youtube.com/watch?v=dJ3DT_7jzds&t=198s) - Growth and operational excellence
+
 **Documentation Note**: This documentation was largely created by AI without close scrutiny or proofreading. Use as a starting framework and adapt to your specific needs.

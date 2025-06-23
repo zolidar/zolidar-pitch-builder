@@ -7,13 +7,27 @@ Transform your business narrative into compelling investor presentations using p
 🚀 **<a href="https://zolidar.github.io/zolidar-pitch-builder/" target="_blank">View Live Presentation</a>** - Interactive web version  
 📄 **<a href="https://docsend.com/view/ks2szb3qji48h79v" target="_blank">View PDF</a>** - Pitch deck with clickable links
 
+## PDF Export for Investor Sharing
+
+**Most users will want to export as PDF for DocSend** - this is the standard way to share pitch decks with investors.
+
+```bash
+npm run generate-pdf     # Generates PDF with clickable links
+```
+
+Features:
+- Professional PDF formatting optimized for DocSend
+- Clickable links preserved (unlike most PDF exports)
+- High-quality output suitable for investor presentations
+- Automatic slide sizing and layout optimization
+
 ## What This Is
 
 An AI-powered pitch deck framework that transforms your business narrative into professional investor presentations using battle-tested methodologies from Khosla Ventures, Sequoia Capital, and successful platform companies.
 
 The key to success: High-quality business context in the `startup-context/` folder. The AI can only be as good as the information you provide about your business.
 
-## Complete Deck Generation Example
+## Complete Deck Generation Recipe
 
 Once you've prepared your business context, you can generate an entire pitch deck with a single comprehensive prompt:
 
@@ -206,14 +220,20 @@ Then iterate slide by slide:
 Create a compelling problem slide based on @startup-context/narrative.md that follows Khosla's 5-second rule and matches the design system from @src/slides/Slide01.tsx
 ```
 
-### 4. Deploy Your Presentation
+### 4. Export and Share Your Presentation
+
+**For Investor Sharing (Recommended)**: Export as PDF for DocSend
+```bash
+npm run generate-pdf     # Creates professional PDF with clickable links
+```
+Then upload the generated PDF to DocSend, Notion, or send directly to investors.
+
+**For Interactive Presentations**: Deploy to GitHub Pages
 
 Set up GitHub Pages (one-time):
 - Go to your repository settings: `https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/pages`
 - Source: **GitHub Actions** (not "Deploy from a branch")
 - Save
-
-**Note**: No gh-pages branch setup needed! The workflow handles everything automatically.
 
 Deploy when ready:
 ```bash
@@ -227,8 +247,6 @@ npm run deploy
 ```
 
 Your site will be live at: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-
-**Deployment Method**: Uses GitHub Actions workflow with manual trigger - no gh-pages branch needed!
 
 ## Preparing Your Startup Context
 

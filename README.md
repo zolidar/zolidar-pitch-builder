@@ -5,31 +5,53 @@ Transform your business narrative into compelling investor presentations using p
 ## Zolidar pitch deck as an example
 
 🚀 **<a href="https://zolidar.github.io/zolidar-pitch-builder/" target="_blank">View Live Presentation</a>** - Interactive web version  
-📄 **<a href="https://docsend.com/view/ks2szb3qji48h79v" target="_blank">View PDF</a>** - Pitch deck with clickable links
-
-## PDF Export for Investor Sharing
-
-**Most users will want to export as PDF for DocSend** - this is the standard way to share pitch decks with investors.
-
-```bash
-npm run generate-pdf     # Generates PDF with clickable links
-```
-
-Features:
-- Professional PDF formatting optimized for DocSend
-- Clickable links preserved (unlike most PDF exports)
-- High-quality output suitable for investor presentations
-- Automatic slide sizing and layout optimization
+📄 **<a href="https://docsend.com/view/ks2szb3qji48h79v" target="_blank">View PDF</a>** - Professional PDF export for DocSend sharing
 
 ## What This Is
 
 An AI-powered pitch deck framework that transforms your business narrative into professional investor presentations using battle-tested methodologies from Khosla Ventures, Sequoia Capital, and successful platform companies.
 
-The key to success: High-quality business context in the `startup-context/` folder. The AI can only be as good as the information you provide about your business.
+**The key to success**: High-quality business context in the `startup-context/` folder. The AI can only be as good as the information you provide about your business.
 
-## Complete Deck Generation Recipe
+## Quick Start Guide
 
-Once you've prepared your business context, you can generate an entire pitch deck with a single comprehensive prompt:
+### Prerequisites
+
+- Cursor Editor with Claude Sonnet for optimal AI assistance
+- Node.js (v18 or higher recommended)
+- GitHub account (for deployment)
+
+### 1. Get Started
+
+Fork and clone this repository:
+```bash
+# Fork this repository on GitHub, then clone your fork
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+cd YOUR-REPO-NAME
+npm install
+npm run dev
+```
+
+Your development server will start at `http://localhost:5173` - keep this running to see changes in real-time.
+
+### 2. Prepare Your Business Context
+
+This is the most critical step that determines the quality of your AI-generated presentation. The `startup-context/` folder structure is already created with templates - customize them with your business information.
+
+**Essential files to create** (see [Startup Context Setup](startup-context/README.md) for templates):
+- `startup-context/narrative.md` - Your core business story (MUST HAVE)
+- `startup-context/supporting-docs/market-research.md` - Market data and customer research
+- `startup-context/supporting-docs/competitive-analysis.md` - Competitor intelligence
+- `startup-context/supporting-docs/financial-projections.md` - Revenue model and forecasts
+
+**Replace example assets**:
+- `src/assets/` - Add your logos, team photos, and company images
+
+**Pro Tip**: Beyond the templates, add any internal business documents to dramatically improve AI output quality - PRDs, business plans, marketing materials, customer feedback, financial models, etc.
+
+### 3. Generate Your Deck with AI
+
+Open Cursor Agent (`Ctrl/Cmd + L`) and use this comprehensive prompt to generate your entire pitch deck:
 
 ```
 Based on @startup-context/narrative.md and @startup-context/supporting-docs/, create a complete 15-slide investor pitch deck following this structure:
@@ -60,9 +82,35 @@ For each slide:
 Start with slides 1-5, then I'll review before continuing with the rest.
 ```
 
-This single prompt leverages all your prepared context to create a professional, comprehensive pitch deck.
+### 4. Export and Share Your Presentation
 
-## How to Use AI Prompts
+**For Investor Sharing (Recommended)**: Export as PDF for DocSend
+```bash
+npm run generate-pdf     # Creates professional PDF with clickable links
+```
+Then upload the generated PDF to DocSend, Notion, or send directly to investors.
+
+**For Interactive Presentations**: Deploy to GitHub Pages
+
+Set up GitHub Pages (one-time):
+- Go to your repository settings: `https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/pages`
+- Source: **GitHub Actions** (not "Deploy from a branch")
+- Save
+
+Deploy when ready:
+```bash
+# Make sure all changes are committed and pushed
+git add .
+git commit -m "Update slides"
+git push origin master
+
+# Deploy to GitHub Pages (triggers GitHub Actions)
+npm run deploy
+```
+
+Your site will be live at: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
+
+## Advanced AI Prompting Techniques
 
 The key to success is context-driven prompting. The AI needs to understand your business deeply to create compelling slides.
 
@@ -98,7 +146,7 @@ Keep the same:
 But update the content to show [SPECIFIC MARKET DATA].
 ```
 
-### Advanced Prompting Techniques
+### Advanced Techniques
 
 **Iterative Refinement:**
 ```
@@ -136,136 +184,18 @@ Suggest reordering or content changes to improve the story arc. Each slide shoul
 - Iterate in cycles: Build → analyze → improve → expand
 - Keep context: Reference previous slides for consistency
 
-## First Step: Prepare Your Business Context
+## Business Context Guidelines
 
-Before you start building slides, you need to prepare your business context. This is the most critical step that determines the quality of your AI-generated presentation.
-
-### Why Context Preparation Comes First
-
-- AI Limitation: The AI can only work with the information you provide
-- Quality Impact: Better context = more compelling, specific slides
-- Time Saver: Context preparation significantly reduces slide iteration time
-
-### What You Need to Prepare
-
-The `startup-context/` folder contains templates for:
-
-1. `narrative.md` - Your core business story
-2. `market-research.md` - Industry data and customer insights  
-3. `competitive-analysis.md` - Strategic positioning vs. competitors
-4. `financial-projections.md` - Revenue model and forecasts
-
-**Pro Tip: Include Your Internal Documents**  
-Beyond the templates, you can add any internal business documents to dramatically improve AI output quality:
-
-- **Product Documents**: PRDs (Product Requirements Documents), technical specifications, roadmaps
-- **Strategic Documents**: Business plans, strategic memos, partnership agreements
-- **Marketing Materials**: Blog posts, press releases, case studies, white papers
-- **UX Content**: Website copy, product landing pages, in-app messaging, user onboarding flows
-- **Customer Materials**: Sales decks, customer success stories, testimonials, support documentation
-- **Financial Documents**: Investor updates, board decks, detailed financial models
-
-The AI will reference these documents when creating slides, resulting in more specific, authentic, and compelling content that reflects your actual business rather than generic templates.
-
-Quick Start: At minimum, complete your `narrative.md` with real business details. This single file will dramatically improve your slide quality.
-
-Detailed Guide: See [Preparing Your Startup Context](#preparing-your-startup-context) section below for comprehensive instructions.
-
-## Quick Start Guide
-
-### Prerequisites
-
-- Cursor Editor with Claude Sonnet for optimal AI assistance
-- Node.js (v18 or higher recommended)
-- GitHub account (for deployment)
-
-### 1. Get Started
-
-Fork and clone this repository:
-```bash
-# Fork this repository on GitHub, then clone your fork
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
-npm install
-npm run dev
-```
-
-Your development server will start at `http://localhost:5173` - keep this running to see changes in real-time.
-
-### 2. Set Up Your Business Context
-
-This step determines the quality of your AI-generated slides. The better your context, the better your pitch deck.
-
-The `startup-context/` folder structure is already created with templates. Simply customize the template files with your business information.
-
-Essential files to create (see [Startup Context Setup](startup-context/README.md) for templates):
-- `startup-context/narrative.md` - Your core business story (MUST HAVE)
-- `startup-context/supporting-docs/market-research.md` - Market data and customer research
-- `startup-context/supporting-docs/competitive-analysis.md` - Competitor intelligence
-- `startup-context/supporting-docs/financial-projections.md` - Revenue model and forecasts
-
-Replace example assets:
-- `src/assets/` - Add your logos, team photos, and company images
-
-### 3. Build Your Slides with AI
-
-Open Cursor Agent (`Ctrl/Cmd + L`) and start with context-setting prompts:
-
-```
-I'm building a pitch deck for [YOUR COMPANY]. Please analyze the existing slide structure and help me customize it for my business using the methodologies in the .cursor/rules/ folder.
-```
-
-Then iterate slide by slide:
-```
-Create a compelling problem slide based on @startup-context/narrative.md that follows Khosla's 5-second rule and matches the design system from @src/slides/Slide01.tsx
-```
-
-### 4. Export and Share Your Presentation
-
-**For Investor Sharing (Recommended)**: Export as PDF for DocSend
-```bash
-npm run generate-pdf     # Creates professional PDF with clickable links
-```
-Then upload the generated PDF to DocSend, Notion, or send directly to investors.
-
-**For Interactive Presentations**: Deploy to GitHub Pages
-
-Set up GitHub Pages (one-time):
-- Go to your repository settings: `https://github.com/YOUR-USERNAME/YOUR-REPO-NAME/settings/pages`
-- Source: **GitHub Actions** (not "Deploy from a branch")
-- Save
-
-Deploy when ready:
-```bash
-# Make sure all changes are committed and pushed
-git add .
-git commit -m "Update slides"
-git push origin master
-
-# Deploy to GitHub Pages (triggers GitHub Actions)
-npm run deploy
-```
-
-Your site will be live at: `https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/`
-
-## Preparing Your Startup Context
-
-The quality of your pitch deck depends entirely on the business context you provide to the AI. This section is crucial for success.
-
-### Why Context Matters
-
-- AI Limitation: The AI can only work with the information you provide
-- Garbage In, Garbage Out: Poor context = generic, unconvincing slides
-- Quality Context: Specific, detailed business information = compelling, professional slides
+The quality of your pitch deck depends entirely on the business context you provide to the AI. Here's what makes great context:
 
 ### Essential Context Files
 
 #### 1. Core Narrative (`startup-context/narrative.md`)
 
-Purpose: Single source of truth for your business story  
-AI Impact: Referenced in every slide creation
+**Purpose**: Single source of truth for your business story  
+**AI Impact**: Referenced in every slide creation
 
-Must Include:
+**Must Include**:
 - Specific problem with quantified pain points
 - Your unique solution and competitive advantages
 - Target market with real size data (not "billions of people")
@@ -274,86 +204,40 @@ Must Include:
 - Team background and why you'll win
 - Funding ask and specific use of funds
 
-Quality Test: Can someone understand your business and why it matters quickly?
+**Quality Test**: Can someone understand your business and why it matters quickly?
 
 #### 2. Market Research (`supporting-docs/market-research.md`)
 
-Purpose: Industry data and customer insights  
-AI Impact: Used for market sizing, customer segments, and validation slides
-
-Must Include:
 - TAM/SAM/SOM with sources and calculation methods
 - Customer interviews and pain point validation
 - Industry statistics with credible sources
 - Pricing sensitivity and willingness to pay data
-- Buying process and decision criteria
-
-Quality Test: Would an investor trust your market analysis?
 
 #### 3. Competitive Analysis (`supporting-docs/competitive-analysis.md`)
 
-Purpose: Strategic positioning vs. alternatives  
-AI Impact: Used for competitive slides and differentiation messaging
-
-Must Include:
 - Direct competitors with honest strengths/weaknesses
 - Indirect competitors and status quo alternatives
 - Your unfair advantages and defensible moats
 - Win/loss analysis from real sales situations
-- Competitive positioning messages
-
-Quality Test: Do you have a clear, defensible competitive position?
 
 #### 4. Financial Projections (`supporting-docs/financial-projections.md`)
 
-Purpose: Revenue model and growth forecasts  
-AI Impact: Used for business model, traction, and funding slides
-
-Must Include:
 - Unit economics (CAC, LTV, payback period)
 - Historical financials if available
 - 3-year projections with key assumptions
 - Scenario analysis (base, upside, downside)
-- Funding requirements and use of funds
-
-Quality Test: Can you defend every number and assumption?
 
 ### Content Quality Standards
 
-#### Good Context Examples
-
+**Good Context Examples**:
 - "1.24M small businesses face succession crisis annually, with 70% shutting down vs. selling" (specific, sourced)
 - "Our enterprise customers pay $50K annually vs. $200K for traditional solutions" (quantified value prop)
 - "Interviewed 47 potential customers, 89% said they'd pay $500/month for this solution" (validated demand)
 
-#### Poor Context Examples
-
+**Poor Context Examples**:
 - "Millions of businesses have this problem" (vague, unsourced)
 - "We're 10x better than competitors" (unsubstantiated claim)
 - "Huge market opportunity" (generic, no specifics)
-
-### Context Validation Checklist
-
-Before using AI to create slides, verify your context:
-
-Narrative Quality:
-- [ ] Problem is specific and quantified
-- [ ] Solution advantages are clear and defensible
-- [ ] Market size is bottom-up calculated
-- [ ] Traction includes real numbers and names
-- [ ] Team background shows relevant expertise
-
-Data Accuracy:
-- [ ] All statistics have credible sources
-- [ ] Financial projections are defendable
-- [ ] Customer feedback is documented
-- [ ] Competitive intelligence is current
-
-Completeness:
-- [ ] Can answer investor questions about any business aspect
-- [ ] Have supporting evidence for all claims
-- [ ] Understand your competitive position
-- [ ] Know your unit economics and growth drivers
 
 ## Available Commands
 
@@ -363,13 +247,13 @@ npm run dev              # Start development server (http://localhost:5173)
 npm run build            # Build project for production
 npm run lint             # Check code quality
 
-# Deployment  
-npm run deploy           # Deploy to GitHub Pages (triggers GitHub Actions workflow)
-npm run deploy-local     # Local deployment using legacy gh-pages branch method
-
 # Export Options
 npm run generate-pdf     # Generate PDF with clickable links
 npm run capture-slides   # Export individual slide images
+
+# Deployment  
+npm run deploy           # Deploy to GitHub Pages (triggers GitHub Actions workflow)
+npm run deploy-local     # Local deployment using legacy gh-pages branch method
 
 # Utilities
 npm run reorder-slides   # Reorder presentation with automatic backups
@@ -389,7 +273,7 @@ your-repo-name/
 └── dist/                   # Built files (auto-generated, not in git)
 ```
 
-Key Folders:
+**Key Folders**:
 - `src/slides/` - Edit these files to build your presentation
 - `src/assets/` - Replace logos and team photos with your own
 - `startup-context/` - Your business narrative and supporting documents
@@ -414,11 +298,9 @@ Key Folders:
 - [Sequoia Structure](.cursor/rules/reference/sequoia-deck-structure.md) - Systematic coverage framework
 - [Memo-Style Approach](.cursor/rules/reference/memo-style-fundraising.md) - For complex platform businesses
 
-## Important Requirements
+## Troubleshooting
 
-### Troubleshooting
-
-#### Deployment Issues
+### Deployment Issues
 
 ```bash
 # Install GitHub CLI if needed:
@@ -436,7 +318,7 @@ git push origin master  # Push to remote
 npm run deploy          # Then deploy
 ```
 
-#### Development Issues
+### Development Issues
 
 ```bash
 # If npm run dev fails:
@@ -446,21 +328,7 @@ npm run dev -- --port 3000  # Try different port
 
 **Changes not reflecting**: Hard refresh (`Ctrl+F5` / `Cmd+Shift+R`) or clear browser cache
 
-#### GitHub CLI Issues
-
-```bash
-# Check GitHub CLI status:
-gh auth status          # Verify authentication
-
-# Re-authenticate if needed:
-gh auth logout
-gh auth login
-
-# Check workflow trigger:
-gh run list --workflow="deploy.yml" --limit 3
-```
-
-#### Removing Redacted Content
+### Removing Redacted Content
 
 Problem: Some slides have redacted content (background and text same color) from the example presentation.  
 Solution: Use this AI prompt to restore normal content:
@@ -476,6 +344,7 @@ I notice this slide has redacted content where the background and text colors ar
 
 Make the slide professional and readable while keeping the existing design system.
 ```
+
 ## Creator & Methodology Credits
 
 **Created by**: [Ashish Agrawal](https://www.linkedin.com/in/ashishagrawal/), Founder of Zolidar  
@@ -489,14 +358,9 @@ Special thanks to our investors and advisors who provided invaluable feedback an
 - **[Rocky Garff](https://www.linkedin.com/in/rgarff/)** - For pitch deck feedback and strategic guidance  
 - **[Payton Dobbs](https://www.linkedin.com/in/paytondobbs/)** - For pitch deck feedback and refinement suggestions
 
-**Methodology Sources**:
-- Vinod Khosla (Khosla Ventures) - Emotional storytelling and investor psychology
-- Sequoia Capital - Systematic structure and comprehensive coverage
-- Parker Conrad (Rippling) - Strategic depth for complex platform businesses
-
 **Source Materials**:
-- [Vinod Khosla: Nail Your Raise - Luring VCs](https://www.khoslaventures.com/nail-your-raise-luring-vcs/) - Slide deck and masterclass
-- [Vinod Khosla Video Presentation](https://www.youtube.com/watch?v=mikw_w6De1g) - Video walkthrough of pitch methodology
+- [Vinod Khosla: Nail Your Raise - Luring VCs](https://www.khoslaventures.com/nail-your-raise-luring-vcs/) - Slide deck
+- [Vinod Khosla Video Presentation](https://www.youtube.com/watch?v=mikw_w6De1g) - Video walkthrough on emotional storytelling and investor psychology
 - [Sequoia Capital Pitch Deck Template](https://www.uvic.ca/gustavson/_assets/docs/pitch-deck-template-web.pdf) - Systematic structure framework
 - [Rippling's 2024 Investor Memo](https://www.rippling.com/blog/rippling-2024-memo) - Memo-style fundraising approach
 - [Rippling Fundraising Deep Dive](https://www.youtube.com/watch?v=zAYPT6CrWRQ&t=1030s) - Platform business strategy

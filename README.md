@@ -416,13 +416,6 @@ Key Folders:
 
 ## Important Requirements
 
-### Best Practices
-
-- Real data only - never fabricate statistics or business metrics
-- Slide dimensions - content must fit within container (13" laptop screen)
-- Quality context - detailed `startup-context/` files are essential for good results
-- Keep dev server running - view changes in real-time at localhost:5173
-
 ### Troubleshooting
 
 #### Deployment Issues
@@ -487,6 +480,14 @@ Make the slide professional and readable while keeping the existing design syste
 
 **Created by**: [Ashish Agrawal](https://www.linkedin.com/in/ashishagrawal/), Founder of Zolidar  
 **Framework Origin**: Originally developed for Zolidar's employee ownership platform pitch deck
+
+### Acknowledgments
+
+Special thanks to our investors and advisors who provided invaluable feedback and resource recommendations:
+
+- **[Chris Kolenaty](https://www.linkedin.com/in/chris-kolenaty-b10a0a33/)** - For sharing Vinod Khosla's presentation and pitch deck methodology
+- **[Rocky Garff](https://www.linkedin.com/in/rgarff/)** - For pitch deck feedback and strategic guidance  
+- **[Payton Dobbs](https://www.linkedin.com/in/paytondobbs/)** - For pitch deck feedback and refinement suggestions
 
 **Methodology Sources**:
 - Vinod Khosla (Khosla Ventures) - Emotional storytelling and investor psychology

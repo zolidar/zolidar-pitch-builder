@@ -22,7 +22,7 @@ const SUBSET_SLIDES = [
 
 // Public PDF slides - Edit this array to specify which slides to include in the public PDF
 const PUBLIC_SLIDES = [
-  1, 2, 3, 4, 10
+  1, 2, 4, 42, 43, 6, 27, 8, 9, 19, 36
   // Add or remove slide numbers for the fully public version
   // This should contain slides that are safe for public sharing
 ];

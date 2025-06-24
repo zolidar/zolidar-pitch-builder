@@ -286,7 +286,9 @@ your-repo-name/
 - [Scripts Overview](scripts/README.md) - All available commands and utilities
 - [Startup Context Setup](startup-context/README.md) - How to organize your business content
 
-### AI Guidelines (Auto-Included)
+### AI Guidelines
+
+These guidelines are automatically referenced by Cursor Editor when you use AI assistance:
 
 - [Rules Hierarchy](.cursor/rules/HIERARCHY.md) - How all guidelines work together
 - [Slide Design System](.cursor/rules/core/slide-design.md) - Visual guidelines

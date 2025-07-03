@@ -4,6 +4,17 @@ import { SlideProps, SlideComponentType } from '../types';
 const Slide01: SlideComponentType = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center relative">
+      {/* Badge at top center */}
+      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10">
+        <a 
+          href="https://zolidar.github.io/zolidar-pitch-builder/" 
+          target="_blank" 
+          className="inline-flex items-center px-4 py-2 bg-violet-100 hover:bg-violet-200 text-violet-800 font-medium text-sm rounded-full border border-violet-300 shadow-sm transition-all duration-200 hover:shadow-md no-underline"
+        >
+          View Interactive Version
+        </a>
+      </div>
+
       <div className="text-center max-w-4xl">
         <h1 className="font-ubuntu text-7xl font-bold bg-gradient-to-r from-slate-900 to-slate-800 bg-clip-text text-transparent mb-12">
           <a href="https://zolidar.com" target="_blank" className="font-ubuntu text-7xl font-bold bg-gradient-to-r from-slate-900 to-slate-800 bg-clip-text text-transparent no-underline">

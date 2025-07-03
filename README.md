@@ -4,7 +4,7 @@ Transform your business narrative into compelling investor presentations using p
 
 ## Zolidar pitch deck as an example
 
-🚀 **<a href="https://zolidar.github.io/zolidar-pitch-builder/" target="_blank">View Live Presentation</a>** - Interactive web version  
+🚀 **<a href="https://docsend.com/view/ks2szb3qji48h79v" target="_blank">View Live Presentation</a>** - Interactive web version  
 📄 **<a href="https://docsend.com/view/ks2szb3qji48h79v" target="_blank">View PDF</a>** - Professional PDF export for DocSend sharing
 
 ## What This Is

@@ -36,11 +36,11 @@ const Slide33: SlideComponentType = () => {
                 <h3 className="text-2xl font-semibold text-slate-700">Owners' Advisors</h3>
               </div>
               <div className="space-y-8">
-                <p className="text-lg font-medium text-slate-700 bg-slate-700">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
+                <p className="text-lg font-medium text-slate-700">
+                Enable advisors to upsell EO centric exit plans to owners
                 </p>
-                <p className="text-base text-slate-600 bg-slate-600 leading-relaxed">
-                  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                <p className="text-base text-slate-600 leading-relaxed">
+                Target advisors like financial planners, accountants, & lawyers through associations & events
                 </p>
               </div>
             </div>

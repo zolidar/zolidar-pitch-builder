@@ -5,12 +5,6 @@ import { Users, DollarSign, Shield, ArrowRight } from 'lucide-react';
 const Slide16: SlideComponentType = () => {
   return (
     <div className="h-full flex flex-col relative">
-      {/* Redacted Version Sticky */}
-      <div className="absolute -top-6 -left-6 z-20">
-        <div className="bg-slate-600/90 backdrop-blur-sm shadow-xl drop-shadow-lg px-4 py-2 rounded-br-md border-r border-b border-slate-600/60 transform rotate-1 hover:rotate-0 transition-transform duration-200">
-          <span className="text-white text-xs font-medium tracking-wide uppercase">Heavily Redacted Version</span>
-        </div>
-      </div>
       {/* Subtle overlay pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="h-full w-full" style={{
@@ -26,10 +20,10 @@ const Slide16: SlideComponentType = () => {
           {/* Header */}
           <div className="mb-16 max-w-5xl">
             <p className="text-[2.6rem] leading-tight text-white font-extrabold text-left drop-shadow-lg mb-1">
-             Building our GTM Multiplier: <span className="bg-white">consectetur</span>
+             Our GTM Multiplier: Advisor Platform
             </p>
             <p className="text-3xl text-blue-200/90 tracking-tight font-light">
-              Network of <span className="bg-blue-200">sed do eiusmod tempor incididunt ut labore</span>
+              Network of trusted advisors to reach many businesses
             </p>
           </div>
 
@@ -46,11 +40,11 @@ const Slide16: SlideComponentType = () => {
                 <h3 className="text-2xl font-bold text-white text-left drop-shadow-sm">Revenue Streams</h3>
               </div>
               <div className="space-y-3">
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Dolor sit amet</span> consectetur adipiscing elit
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                <span className="font-medium text-white">Advisor subscriptions</span> at $40/month to $3,000/year
                 </div>
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Sed do eiusmod</span> tempor incididunt ut labore
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                  <span className="font-medium text-white">Business subscriptions</span> from advisor's clients
                 </div>
               </div>
               
@@ -68,17 +62,17 @@ const Slide16: SlideComponentType = () => {
                 <h3 className="text-2xl font-bold text-white text-left drop-shadow-sm">Value Proposition</h3>
               </div>
               <div className="space-y-3">
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Et dolore</span> magna aliqua ut enim ad minim
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                  <span className="font-medium text-white">30% off</span> client subscriptions and other perks
                 </div>
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Veniam quis</span> nostrud exercitation
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                  <span className="font-medium text-white">Multi-client</span> management tools
                 </div>
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Ullamco laboris</span> nisi ut aliquip ex ea
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                  <span className="font-medium text-white">Offer exit planning</span> without extra burden
                 </div>
-                <div className="text-white/80 bg-white text-base font-light text-left leading-relaxed">
-                  <span className="font-medium text-white bg-white">Commodo consequat</span> duis aute irure dolor
+                <div className="text-white/80 text-base font-light text-left leading-relaxed">
+                  <span className="font-medium text-white">Retain clients</span> during and after exit
                 </div>
               </div>
               

@@ -134,10 +134,12 @@ const Slide12: SlideComponentType = () => {
               <div className="mb-1">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-base font-semibold text-slate-800">Advisor Platform</h3>
-                  <span className="text-xs font-medium bg-amber-100/70 text-slate-500 px-3 py-0.5 rounded">In Progress</span>
+                  <a href="https://zolidar.com/advisors" target="_blank" className="bg-orange-600 text-white px-2 py-0.5 rounded text-xs font-medium">
+                    View
+                  </a>
                 </div>
-                <p className="text-sm text-slate-600 bg-slate-600 leading-relaxed">
-                  <span className="font-medium text-slate-700 bg-slate-700">Lorem ipsum dolor</span> → sit amet consectetur adipiscing elit
+                <p className="text-sm text-slate-600 leading-relaxed">
+                  <span className="font-medium text-slate-700">Multi-client center</span> → GTM multiplier to reach many businesses
                 </p>
               </div>
             </div>

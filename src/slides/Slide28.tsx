@@ -18,7 +18,7 @@ const phases = [
       {
         name: 'Advisors',
         description: 'Product for Advisors',
-        status: 'progress'
+        status: 'launched'
       }
     ]
   },

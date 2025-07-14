@@ -7,7 +7,7 @@ const goals = [
     title: 'Own the Pipeline',
     statusItems: [
       { item: 'MVP for owners', status: 'launched' },
-      { item: 'MVP for advisors', status: 'progress' }
+      { item: 'MVP for advisors', status: 'launched' }
     ]
   },
   {
